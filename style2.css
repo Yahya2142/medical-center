@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --maincolor:#2ec8a6;
+    --secondcolor:#03897e;
+    --thirdcolor:#f4ab01;
+    --textcolor:hsl(210, 15%, 34%);
+}
+
+body {
+
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(46,200,166,1) 0%, rgba(21,168,156,1) 100%);
+}
+.container {
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+   
+  
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--maincolor);
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--maincolor);
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--maincolor);
+    text-align: left;
+}
+input[type="text"],
+input[type="password"],
+select {
+    width: 80%;
+    padding: 12px 40px 12px 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.form-group i {
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    color: var(--textcolor);
+    font-size: 15px;
+}
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.gender-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.gender-group label {
+    margin-right: 10px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--maincolor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: var(--secondcolor);
+}
